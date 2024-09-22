@@ -32,9 +32,22 @@ a {
 
 .header {
   height: 100vh;
+  background-image: url("https://wp.technologyreview.com/wp-content/uploads/2021/12/48953946911_7dae1036a2_o.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-/* agrega el título de la página aquí */
+.title {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  text-transform: uppercase;
+  max-width: 1240px;
+  text-align: center;
+  margin: auto;
+}
 
 .overlay {
   width: 100%;
@@ -47,14 +60,43 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* agrega aquí las reglas restantes */
+  max-width: 790px;
+  margin: 100px auto 50px;
 }
 
-/* agregar reglas CSS para tarjetas/cards y su contenido aquí */
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+}
+
+.card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.card__title {
+  font-family: "Permanent Marker", cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card__description {
+  font-size: 16px;
+}
 
 .footer {
   display: flex;
-  /* agrega aquí las reglas restantes */
+  min-height: 300px;
+  background-color: #000000;
 }
 
-/* agregar una regla CSS para la firma del pie de página */
+.footer__signature {
+  font-size: 24px;
+  color: white;
+  margin: auto;
+}
